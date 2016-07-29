@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+/*第一页*/
+.box{
+	width: 10.0rem;
+	height: 17.734375rem;
+	background: url("../img/background1.png");
+	background-size: 100% 100%;		
+	margin: 0 auto;
+	position: relative;
+}
+						/*蒙版*/
+#bgcolor{
+	width: 10.0rem;
+	height: 17.734375rem;
+	background-color: #000;
+	opacity: 0.6;
+	position: absolute;
+	z-index: 12;
+	display: none;
+}
+						/*个人信息*/
+.person_msg{
+	width: 7.28125rem;
+	height: 9.21875rem;
+	background-color: #ffead1;
+	border:0.03125rem solid #e33145;
+	border-radius: 0.078125rem;
+	text-align: center;
+	position: absolute;
+	top: 2.8125rem;
+	left: 1.34375rem;
+	z-index: 20;
+	display: none;
+}
+.person_msg .wrap_false{
+	position: absolute;
+	top: -0.6rem;
+	right: 0;
+}
+.person_msg ul li{
+	margin: 0.234375rem auto;
+}
+.person_msg li:nth-child(1){
+	width: 6.953125rem;
+	height: 1.28125rem;
+}
+.person_msg li:nth-child(2){
+	width: 3.8rem;
+	height: 0.78125rem;
+	font-size: 0.34375rem;
+}
+.person_msg li:nth-child(3),.person_msg li:nth-child(4){
+	width: 5.46875rem;
+	height: 1.09375rem;
+	line-height: 1.09375rem;
+	background-color: #f2bb00;
+	border: 3px solid #e33145;
+	border-radius: 0.15625rem;
+	font-size: 0.34375rem;
+	margin: 0.3125rem auto;
+}
+.person_msg .msg1{
+	width: 3.5rem;
+	height: 0.90625rem;
+	background-color: #f2bb00;
+	border:none;
+	outline: none;
+	font-size: 0.3125rem;
+}
+.person_msg .login{
+	width: 4.03125rem;
+	height: 1.328125rem;
+	line-height: 1.328125rem;
+	background-color: #e33145;
+	font-size: 0.5rem;
+	color: white;
+	outline: none;
+	border-radius: 0.234375rem;
+	margin-top: 0.703125rem;
+	cursor: pointer;
+}
+							/*活动规则*/
+.wrap{
+	width: 7.1875rem;
+	height: 9.375rem;
+	position: absolute;
+	top: 3.1rem;
+	left: 1.34375rem;
+	z-index: 16;
+}
+.wrap ul li{
+	position: absolute;
+	top: 0.15625rem;
+	left: 0.15625rem;
+	display: none;
+}
+.wrap_false{
+	width: 0.484375rem;
+	height: 0.484375rem;
+	float: right;
+	cursor: pointer;
+}
+.mov{
+	margin-top: -0.6rem;
+}
+.wrap_rank{
+	width: 7.1875rem;
+	height: 9.375rem;
+	background: url("../img/rank.png");
+	background-size: 100% 100%;
+}
+.wrap .wrap_show{
+	display: block;
+}
+
+												/*header*/
+.header{
+	width: 10.0rem;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 1.23456rem;
+}
+.header .show-hide{
+	display: none;
+}
+.header>ul li:nth-child(1){
+	width: 7.03125rem;
+	height: 2.515625rem;
+	position: absolute;
+	left: 2.65625rem;
+}
+.header>ul li:nth-child(2){
+	width: 9.390625rem;
+	height: 1.65625rem;
+	position: absolute;
+	top: 2.3125rem;
+	left: 0.25rem;
+}
+.header>ul li:nth-child(3){
+	width: 7.703125rem;
+	height: 1.734375rem;
+	position: absolute;
+	top: 3.75rem;
+	left: 1.375rem;
+}
+
+											/*content*/
+.content{
+	width: 10.0rem;
+	height: 7.65625rem;
+	position: relative;
+	top: 9.328125rem;
+}
+.content .money{
+	width: 5.9375rem;
+	height: 8.421875rem;
+	margin: 0 auto;
+}
+.money .div2{
+	width: 5.671875rem;
+	height: 6.34375rem;
+	position: absolute;
+}
+.money #qian{
+	width: 5.5rem;
+	height: 7.24789rem;
+	position: absolute;
+	cursor: pointer;
+}
+.start{
+	position: absolute;
+	top: 1.1875rem;
+	left: 3.046875rem;
+}
+.start #show_msg{
+	width: 3.59375rem;
+	height: 3.6875rem;
+	margin: 0 auto;
+	position: absolute;
+	cursor: pointer;
+	z-index: 15;
+}
+.hand{
+	width: 1.34375rem;
+	height: 1.125rem;
+	position: absolute;
+	top: 2.875rem;
+	left: 5.84375rem;
+	z-index: 16;
+}
+.start .rules{
+	width: 9.0625rem;
+	height: 2.0rem;
+	background: url("../img/rule-background.png");
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: -6.5rem;
+	left: -2.46875rem;
+	z-index: 10;
+}
+.rules div{
+	width: 2.015625rem;
+	height: 1.421875rem;
+	float: left;
+	margin: 0.203125rem 0.125rem;
+	cursor: pointer;
+}
+
+/*footer*/
+.footer{
+	width: 10.0rem;
+	height: 2.328125rem;
+	background: url("../img/qiang.png");
+	background-size: 100% 100%;
+	position: relative;
+	top: 7.859375rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

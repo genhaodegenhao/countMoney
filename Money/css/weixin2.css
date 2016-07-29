@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+/*第一页*/
+.box{
+	width: 10.0rem;
+	height: 17.734375rem;	
+	background: url("../img/bg2.png");
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: relative;
+}
+												/*header*/
+.header{
+	width: 10.0rem;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 2.234375rem;
+}
+#text{
+	width: 8.265625rem;
+	height: 3.359375rem;
+	position: relative;
+	margin: 0 auto;
+}
+#text div{
+	opacity: 0;
+	position: absolute;
+	-webkit-transition:all 1s;
+}
+.text .show{
+	opacity: 1 !important;
+	-webkit-transform:scale(0.9);
+}
+
+.header .countdown{
+	width: 6.3rem;
+	height: 1.640625rem;
+	margin: 0 auto;
+	font-size: 0.59375rem;
+	color: white;
+}
+.header .countdown>ul li{
+	float: left;
+	width: 1.234375rem;
+	height: 1.640625rem;
+	background: url("../img/graybg.png");
+	background-size: 100% 100%;
+	margin: 0.1875rem 0.125rem;
+	line-height: 1.640625rem;
+	text-align: center;
+}
+.header .countdown>ul li:nth-child(4){
+	width: 1.53125rem;
+	height: 1.625rem;
+	background: url("../img/clock.png");
+	background-size: 100% 100%;
+	line-height: 1.8rem;
+	font-size: 0.46875rem;
+	color: #bd9568;
+}
+											/*content*/
+.content{
+	width: 10.0rem;
+	position: relative;
+	top: 5.86875rem;
+}
+.content .money{
+	width: 5.9375rem;
+	height: 8.421875rem;
+	margin: 0 auto;
+}
+.money .div2{
+	width: 5.671875rem;
+	height: 6.34375rem;
+	position: absolute;
+	top: 0.333rem;
+}
+.money #qian{
+	width: 5.5rem;
+	height: 7.24789rem;
+	position: absolute;
+	cursor: pointer;
+}
+.money #pointer{
+	width: 3.671875rem;
+	height: 2.328125rem;
+	position: absolute;
+	top: 1.296875rem;
+	left: 6.1265rem;
+}
+										/*footer*/
+.footer{
+	width: 10.0rem;
+	height: 2.328125rem;
+	background: url("../img/qiang.png");
+	background-size: 100% 100%;
+	position: relative;
+	top: 2.859375rem;
+}
+
+
+/*第三页*/
+.boxer{
+	width: 10.0rem;
+	height: 17.734375rem;
+	background: url("../img/background1.png");
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: relative;
+	display: none;
+}
+
+												/*header*/
+.headerer{
+	width: 10.0rem;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 2.234375rem;
+}
+.headerer .end_show{
+	width: 6.78520rem;
+	margin: 0 auto;
+}
+.headerer .end_show li{
+	float: left;
+	width: 6.953125rem;
+	height: 1.125rem;
+	color: white;
+	text-align: center;
+}
+.headerer .end_show li:nth-child(2){
+	height: 0.890625rem;
+	font-size: 0.703125rem;
+	margin: 0.390625rem 0 0.3125rem 0;
+}
+.headerer .end_show li:nth-child(3){
+	height: 0.359375rem;
+	font-size: 0.359375rem;
+	margin: 0.390625rem 0;
+}
+.headerer .end_show li:nth-child(4){
+	height: 0.953125rem;
+	line-height: 0.953125rem;
+	background-color: #ffffff;
+	color: #d21026;
+	font-size: 0.390625rem;
+	border-radius: 0.15625rem;
+}
+											/*content*/
+.contenter{
+	width: 10.0rem;
+	height: 7.65625rem;
+	position: relative;
+	top: 5.46875rem;
+}
+.contenter .end_again{
+	width: 6.953125rem;
+	height: 2.921875rem;
+	margin: 0 auto;
+}
+.end_again div{
+	width: 2.84375rem;
+	height: 2.921875rem;
+	cursor: pointer;
+}
+.end_again .again{
+	float: left;
+}
+.end_again .tuhao{
+	float: right;
+}
+
+/*footer*/
+.footerer{
+	width: 10.0rem;
+	height: 2.328125rem;
+	background: url("../img/qiang.png");
+	background-size: 100% 100%;
+	position: relative;
+	top: 7.859375rem;
+}
